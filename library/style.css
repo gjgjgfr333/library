@@ -1,8 +1,30 @@
+@font-face {
+    font-family: Inter;
+    src: url(/font/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Forum;
+    src: url(/font/Forum-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-bolen;
+    src: url(/font/Inter-Medium.ttf);
+}
 header {
+    display: flex;
+    justify-content: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerr {
     display: flex;
     background: #0C0C0E;
     justify-content: center;
     width: 1440px;
+    height: 90px;
     align-items: center;
 }
 .bruklin {
@@ -11,11 +33,9 @@ header {
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: 50px; /* 166.667% */
+    line-height: 50px; 
     letter-spacing: 0.6px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-left: -1px;
 }
 
 nav {
@@ -51,7 +71,7 @@ nav {
     display: flex;
     width: 600px;
     height: 220px;
-    padding: 35px 40px;
+    
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
@@ -61,7 +81,9 @@ nav {
 }
 .blockin1{
     width: 520px;
+    height: 150px;
     flex-shrink: 0;
+    text-align: center;
 }
  h1 {
     color: #FFF;
@@ -98,7 +120,6 @@ h2 {
 .content{
     display: flex;
     align-items: center;
-    gap: 20px;
     justify-content: center;
     
 }
@@ -116,23 +137,23 @@ h2 {
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 .partext{
     color: #000;
-    font-family: Inter;
+    font-family: Inter-bolen;
     font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     line-height: normal;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .photo_block{
     display: flex;
     align-items: flex-start;
     gap:25px;
-    margin-left: 20px;
+   
     margin-top: 20px;
 }
 .photo_to_block{
@@ -173,8 +194,8 @@ h2 {
 .container_textjust{
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
-    margin-top: 45px;
+    margin-left: 15px;
+    margin-top: 38px;
     gap: 90px;
 }
 .inputflex{
@@ -266,50 +287,154 @@ h2 {
 .card{
     box-sizing: border-box;
     width: 550px;
-    height: 550px;
+    height: 555px;
     flex-shrink: 0;
     border: 1px solid #000;
     background: #FFF;
     padding-top: 15px;
     padding-left: 20px;
-    margin-top: 40px;
+    margin-top: 42px;
     margin-left: 20px;
     margin-right: 20px;
+    position: relative;
+    margin-bottom: -1px;
 }
 .cards{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 1440px;
 }
 .booking{
     display: flex;
     width: 200px;
     height: 300px;
     position: absolute;
-    left: 410px;
-    top: 2064px;
+    left: 390px;
+    top: 254px;
 }
-.booking1{
-    display: flex;
-    width: 200px;
-    height: 300px;
-    position: absolute;
-    left: 1298px;
-    top: 2064px;
+.coffe-shop{
+    padding: 20px;
 }
-.booking2{
-    display: flex;
-    width: 200px;
-    height: 300px;
-    position: absolute;
-    left: 410px;
-    top: 2655px;
+.par{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-left: 10px;
 }
-.booking3{
+.about1{
     display: flex;
+    width: 1440px;
+    height: auto;
+    background: #FFF;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.coffe{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1440px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+.cof-tea{
+    display: flex;
+    gap: 40px;
+    width: 438px;
+    height: 520px;
+    flex-direction: column;
+}
+.coffeteaa{
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.beetwen{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.name_coffe{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: start;
     width: 200px;
-    height: 300px;
-    position: absolute;
-    left: 1298px;
-    top: 2655px;
+}
+.stick{
+    display: flex;
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    align-items: center;
+    justify-content: center;
+}
+.prisetag{
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.coffeteaa2{
+    color: #BB945F;
+    text-align: end;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.name_coffe2{
+    color: #000;
+    text-align:end;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    width: 200px;
+}
+.name_coffe22{
+    color: #000;
+    text-align:end;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    width: 230px;
 }
