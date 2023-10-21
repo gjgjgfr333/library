@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Inter-regular;
+    font-family: Inter;
     src: url(/font/Inter-Regular.ttf);
 }
 @font-face {
@@ -38,15 +38,16 @@ body {
     align-items: center;
 }
 .headerr {
+    box-sizing: border-box;
     display: flex;
     background: #0C0C0E;
-    justify-content: center;
+    padding-left: 25px;
     width: 1440px;
     height: 90px;
     align-items: center;
 }
 .bruklin {
-    margin-left: -1px;
+    margin-left: -5px;
 }
 
 nav {
@@ -115,6 +116,8 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 40px;
+    margin-bottom: 1;
     
 }
 h2 {
@@ -145,19 +148,20 @@ h2 {
 }
 .partext{
     color: #000;
-    font-family: Inter-bolen;
+    font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    margin-left: 20px;
+    margin-left: 60px;
     margin-top: 30px;
 }
 .photo_block{
+    box-sizing: border-box;
     display: flex;
-    align-items: flex-start;
     gap:25px;
-   
+    align-content: center;
+    justify-content: center;
     margin-top: 20px;
 }
 .photo_to_block{
@@ -198,7 +202,7 @@ h2 {
 .container_textjust{
     display: flex;
     flex-direction: row;
-    margin-left: 15px;
+    margin-left: 60px;
     margin-top: 38px;
     gap: 90px;
 }
@@ -308,6 +312,8 @@ h2 {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 1440px;
+    box-sizing: border-box;
+    padding-left: 40px;
 }
 .booking{
     display: flex;
@@ -332,6 +338,8 @@ h2 {
     text-transform: capitalize;
     margin-top: 25px;
     margin-left: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
 }
 .about1{
     display: flex;
@@ -342,18 +350,17 @@ h2 {
     align-items: center;
     flex-direction: column;
     margin-top: 40px;
+    margin-left: 40px;
 }
 .coffe{
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
     width: 1440px;
-    flex-wrap: wrap;
     box-sizing: border-box;
     margin-top: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    margin-left: 20px;
 }
 .cof-tea{
     display: flex;
@@ -449,6 +456,10 @@ h2 {
 .contact{
     display: flex;
     justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    padding-right: 40px;
 }
 .bold-text{
     color: #000;
@@ -487,6 +498,10 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 10px;
+    box-sizing: border-box;
+    padding-right: 40px;
+    
 }
 .Inter_30px{
     color: #000;
@@ -501,6 +516,7 @@ a {
     box-sizing: border-box;
     padding: 20px;
     border: 3px solid #BB945F;
+    box-shadow: 3px 1px 1px 0px rgba(0, 0, 0, 0.4);
 }
 .also_block{
     box-sizing: border-box;
@@ -547,7 +563,7 @@ input::placeholder{
     border-radius: 2px;
     border: 1px solid #0C0C0E;
     margin-top: 20px;
-    margin-left: 175px;
+    margin-left: 150px;
 }
 .buttun_check:hover{
     background: #BB945F;
@@ -563,14 +579,13 @@ input::placeholder{
     text-align: end;
 }
 .otst{
-    margin-top: 40px;
     margin-bottom: 30px;
 }
 .la2{
     text-align: center;
 }
 .otst{
-    margin-top: 40px;
+    margin-top: 00px;
 }
 .button_login{
     cursor: pointer;
@@ -599,4 +614,67 @@ input::placeholder{
     justify-content: end;
     align-content: end;
     gap: 20px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 41px;
+}
+.end{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    width: 1440px;
+    height: 250px;
+    background: #0C0C0E;
+}
+.foter{
+    display: flex;
+    justify-content: space-between;
+}
+.text_end{
+    text-align: end;
+}
+.footer_text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.space{
+    width: 229px;
+}
+.space2{
+    width: 149px;
+}
+.ost{
+    margin-top:10px
+}
+.icons{
+    display:flex;
+    gap: 15px;
+}
+.main_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.solid{
+    width: 1400px;
+    height: 1px;
+    background: #FFF;
+    margin-top: 30px;
+    margin-bottom: 46px;
+}
+.end_text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    letter-spacing: 2px;
 }
