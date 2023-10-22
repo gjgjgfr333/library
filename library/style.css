@@ -12,12 +12,14 @@
 }
 .logo_text{
     color: #FFF;
+    text-align: center;
     font-family: Forum;
-    font-size: 30px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
-    line-height: 50px; /* 166.667% */
-    letter-spacing: 0.6px;
+    line-height: 50px; /* 125% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 .start_text{
     color: #000;
@@ -48,8 +50,11 @@ body {
 }
 .bruklin {
     margin-left: -5px;
+    width: 294px;
 }
-
+ul{
+    list-style-type: none;
+}
 nav {
     display: inline-flex;
     align-items: flex-start;
@@ -99,14 +104,12 @@ nav {
 }
  h1 {
     color: #FFF;
-    text-align: center;
     font-family: Forum;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: 50px; /* 125% */
-    letter-spacing: 3px;
-    text-transform: uppercase;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
  }
 .about{
     display: flex;
@@ -264,6 +267,7 @@ h2 {
     cursor: pointer;
     margin-top: 15px;
     margin-bottom: 15px;
+    transition: background-color 0.3s;
     
 }
 .buttuobuy:hover{
@@ -564,6 +568,7 @@ input::placeholder{
     border: 1px solid #0C0C0E;
     margin-top: 20px;
     margin-left: 150px;
+    transition: background-color 0.3s;
 }
 .buttun_check:hover{
     background: #BB945F;
@@ -595,6 +600,7 @@ input::placeholder{
     border: 1px solid #0C0C0E;
     border-radius: 2px;
     width: 75px;
+    transition: background-color 0.3s;
 }
 .button_login:hover{
     background: #BB945F;
@@ -619,9 +625,10 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 41px;
+    margin-top: 35px;
 }
 .end{
+    box-sizing: border-box;
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 20px;
