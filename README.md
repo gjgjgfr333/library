@@ -1,2 +1,2 @@
 # library
-https://gjgjgfr333.github.io/library/
+https://gjgjgfr333.github.io/library/library
