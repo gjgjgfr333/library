@@ -54,16 +54,28 @@ body {
 }
 ul{
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-nav {
-    display: inline-flex;
-    align-items: flex-start;
+.navhed{
     gap: 30px;
+    width: 584px;
+}
+.nav {
     margin-left: 454px;
 }
 
 .textnav{
     color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 250% */
+}
+.textnav :hover{
+    color: #6e6d6d;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
@@ -178,6 +190,10 @@ h2 {
     flex-shrink: 0;
     border-radius: 50%;
     background: #BB945F;
+    cursor: pointer;
+}
+.none{
+    display: none;
 }
 .round_black{
     width: 16px;
@@ -185,6 +201,7 @@ h2 {
     flex-shrink: 0;
     border-radius: 50%;
     background: #0C0C0E;
+    cursor: pointer;
     ;
 }
 .block_round{
@@ -213,6 +230,17 @@ h2 {
     display: flex;
     gap: 20px;
 
+}
+.cursore{
+    cursor: pointer;
+}
+.regtangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
 }
 .text_main1 {
     color: #000;
@@ -246,7 +274,27 @@ h2 {
     text-transform: capitalize;
     
 }
-
+.ownbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    color: #BB945F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #FFF;
+}
 .buttuobuy{
     display: flex;
     justify-content: center;
@@ -267,11 +315,14 @@ h2 {
     cursor: pointer;
     margin-top: 15px;
     margin-bottom: 15px;
+    background-color: #FFF;
     transition: background-color 0.3s;
     
 }
 .buttuobuy:hover{
-    background-color: #BB945F
+    background-color: #BB945F;
+    border: none;
+    
 }
 .line_card{
     width: 60px;
@@ -558,6 +609,7 @@ input::placeholder{
     letter-spacing: 0.6px;
 }
 .buttun_check{
+    box-sizing: border-box;
     cursor: pointer;
     box-sizing: border-box;
     padding-left: 40px;
@@ -567,6 +619,7 @@ input::placeholder{
     border-radius: 2px;
     border: 1px solid #0C0C0E;
     margin-top: 20px;
+    background-color: #FFF;
     margin-left: 150px;
     transition: background-color 0.3s;
 }
@@ -600,10 +653,12 @@ input::placeholder{
     border: 1px solid #0C0C0E;
     border-radius: 2px;
     width: 75px;
+    background-color: #FFF;
     transition: background-color 0.3s;
 }
 .button_login:hover{
     background: #BB945F;
+    border: none;
 }
 .text_inbutton{
     color: #0C0C0E;
@@ -663,6 +718,7 @@ footer {
 .icons{
     display:flex;
     gap: 15px;
+    margin-left: -35px;
 }
 .main_footer{
     display: flex;
