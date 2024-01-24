@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Library</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" type="image/jpeg" href="favicon.ico">
@@ -11,7 +12,6 @@
     <body>
         <header>
             <div class="headerr">
-            
                 <div class="bruklin"><h1>Brooklyn Public Library</h1></div>
                 <nav class="nav">
                     <ul class="navhed">
@@ -21,9 +21,19 @@
                         <li class="textnav"><a href='#contact' class='textnav'>Contacts</a></li>
                         <li class="textnav"><a href='#lib' class='textnav'>Library Card</a></li>
                     </ul>
-                    </nav>
-                <img class="icone_profil" src="/photo/icon_profile.svg" alt="icon_profile">
-            </div>    
+                </nav>
+
+                    <div class="burgerMenu">
+                        <label class="burger-icon burgerSize">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <img class="icone_profil" src="/photo/icon_profile.svg" alt="icon_profile">
+                        </label>
+                    </div>
+               </div>
+
+            </div>
         </header>
        <section class="wellcome">
             <div class="block1">
@@ -42,17 +52,24 @@
                 </div>
                 <div class="simple_text start_text">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </div>
                 <div class="photo_block">
-                    <img class="photo_to_block" src="/photo/image1.png" alt="photo1">
-                    <img class="photo_to_block" src="/photo/image2.png" alt="photo1">
-                    <img class="photo_to_block" src="/photo/image3.png" alt="photo1">
+                    <img id="photo_to_block_1" src="/photo/image1.png" alt="photo1">
+                    <img id="photo_to_block_2" src="/photo/image2.png" alt="photo1">
+                    <img id="photo_to_block_3" src="/photo/image3.png" alt="photo1">
                 </div>
                 <div class="block_round">
                     <div class="regtangle"><div class="round_darck"></div></div>
                     <div class="regtangle"><div class="round_black"></div></div>
                     <div class="regtangle"><div class="round_black"></div></div>
                 </div>
+                <div class="block_roundMobail">
+                    <div class="regtangle"><div class="round_darck"></div></div>
+                    <div class="regtangle"><div class="round_black"></div></div>
+                    <div class="regtangle"><div class="round_black"></div></div>
+                    <div class="regtangle"><div class="round_black"></div></div>
+                    <div class="regtangle"><div class="round_black"></div></div>
+                </div>
             </section>
-            <section class="favorites" id="Fav">
+            <section id="Fav">
                 <div class="about">
                     <div class="content">
                         <h2>Favorites</h2>

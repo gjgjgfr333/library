@@ -14,3 +14,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+let ostatok
+function ctepen (baza, stepen){
+    let n = stepen % 1;
+    if(stepen < 1){
+        return console.log('сепень меньше нуля')
+    }else if (n == 0){
+        let sum = baza ** stepen
+        return sum
+    }else{
+        console.log('не натуральное число')
+    }    
+}
