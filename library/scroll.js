@@ -26,3 +26,8 @@ function ctepen (baza, stepen){
         console.log('не натуральное число')
     }    
 }
+let naw =document.getElementById('naw')
+let burger = document.getElementById('burger')
+burger.addEventListener('click',function(){
+    naw.classList.add('nawMenuAnim')
+})
