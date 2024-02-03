@@ -20,7 +20,7 @@ function ctepen (baza, stepen){
     if(stepen < 1){
         return console.log('сепень меньше нуля')
     }else if (n == 0){
-        let sum = baza ** stepen
+        let sum= baza ** stepen
         return sum
     }else{
         console.log('не натуральное число')
