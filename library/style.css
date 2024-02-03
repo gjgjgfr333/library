@@ -861,14 +861,21 @@ main{
         box-sizing: border-box;
         width: 768px;
     }
-    .burger-menu {
-        position: absolute;
-
-
-    }
-    .burger-icon {
-        display: inline-block;
+    .burger-menu{
+        display: flex;
+        flex-direction: column;
         cursor: pointer;
+    }
+    .burger-to-cross .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-4px, 9px);
+    }
+
+    .burger-to-cross .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger-to-cross .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -10px);
     }
     .bar {
         display: block;
@@ -876,12 +883,11 @@ main{
         margin: 10px 0;
         height: 2px;
         background-color: #fff;
+        transition: 0.4s;
     }
     .nav{
         display: none;
     }
-
-
 }
 @media screen and (max-width: 768px) {
     body {
@@ -1038,7 +1044,9 @@ main{
         display: flex;
         flex-direction: column;
         background-color: #0C0C0E;
-        right: 768px;
+        right: -332px;
+        transition: right 0.5s;
+        top: 90px;
     }
     .headNav{
         padding: 20px;
@@ -1054,7 +1062,8 @@ main{
         padding: 15px;
     }
     .nawMenuAnim{
-        left: 436px;
+        right: 0;
+        top: 90px;
     }
     .name_coffe22{
         color: #000;
