@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef5df356-6137-4a65-af11-74513aaf6ca8" name="Changes" comment="int: верска 1/3 mobai" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="library" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gjgjgfr333&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f46d0dbe-05f0-4b9b-b148-67e842c18134" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f46d0dbe-05f0-4b9b-b148-67e842c18134" />
+        <option name="url" value="https://github.com/gjgjgfr333/library.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2agK5Q3V3M7pyWB8Ykq5DWIV86t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef5df356-6137-4a65-af11-74513aaf6ca8" name="Changes" comment="" />
+      <created>1704734599315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704734599315</updated>
+      <workItem from="1704734603532" duration="633000" />
+      <workItem from="1706035151001" duration="7982000" />
+      <workItem from="1706113493359" duration="821000" />
+      <workItem from="1706114569831" duration="11470000" />
+      <workItem from="1706450393162" duration="132000" />
+      <workItem from="1706643989684" duration="2598000" />
+      <workItem from="1706895243716" duration="11048000" />
+      <workItem from="1707049554768" duration="396000" />
+      <workItem from="1707051257068" duration="1625000" />
+    </task>
+    <task id="LOCAL-00001" summary="int: верска 1/4 mobail">
+      <option name="closed" value="true" />
+      <created>1706121833074</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706121833074</updated>
+    </task>
+    <task id="LOCAL-00002" summary="int: верска 1/4 mobail">
+      <option name="closed" value="true" />
+      <created>1706121875369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706121875369</updated>
+    </task>
+    <task id="LOCAL-00003" summary="int: верска 1/4 mobail">
+      <option name="closed" value="true" />
+      <created>1706121978563</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706121978563</updated>
+    </task>
+    <task id="LOCAL-00004" summary="int: верска 1/4 mobail">
+      <option name="closed" value="true" />
+      <created>1706122548754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706122548754</updated>
+    </task>
+    <task id="LOCAL-00005" summary="int: верска 1/4 mobail">
+      <option name="closed" value="true" />
+      <created>1706123232617</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706123232617</updated>
+    </task>
+    <task id="LOCAL-00006" summary="int: верска 1/4 mobail">
+      <option name="closed" value="true" />
+      <created>1706897924977</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706897924977</updated>
+    </task>
+    <task id="LOCAL-00007" summary="int: верска 1/4 mobai">
+      <option name="closed" value="true" />
+      <created>1706898423602</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706898423602</updated>
+    </task>
+    <task id="LOCAL-00008" summary="int: верска 1/4 mobai">
+      <option name="closed" value="true" />
+      <created>1706898492417</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706898492417</updated>
+    </task>
+    <task id="LOCAL-00009" summary="int: верска 1/4 mobai">
+      <option name="closed" value="true" />
+      <created>1706902156623</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706902156623</updated>
+    </task>
+    <task id="LOCAL-00010" summary="int: верска 1/3 mobai">
+      <option name="closed" value="true" />
+      <created>1706902186491</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706902186491</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="int: верска 1/4 mobail" />
+    <MESSAGE value="int: верска 1/4 mobai" />
+    <MESSAGE value="int: верска 1/3 mobai" />
+    <option name="LAST_COMMIT_MESSAGE" value="int: верска 1/3 mobai" />
+  </component>
+</project>
