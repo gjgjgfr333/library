@@ -1,14 +1,14 @@
 @font-face {
     font-family: Inter;
-    src: url(library/font/Inter-Regular.ttf);
+    src: url(../font/Inter-Regular.ttf);
 }
 @font-face {
     font-family: Forum;
-    src: url(library/font/Forum-Regular.ttf);
+    src: url(../font/Forum-Regular.ttf);
 }
 @font-face {
     font-family: Inter-bold;
-    src: url(library/font/Inter-Medium.ttf);
+    src: url(../font/Inter-Medium.ttf);
 }
 .logo_text{
     color: #FFF;
@@ -98,7 +98,7 @@ ul{
     display: flex;
     width: 1440px;
     height: 600px;
-    background-image: url(library/photo/backgroundd.jpg);
+    background-image: url(../photo/backgroundd.jpg);
     background-size: cover;
     background-position: center;
     margin: 0px;
@@ -906,7 +906,7 @@ main{
         display: flex;
         width: 768px;
         height: 600px;
-        background-image: url(library/photo/backgroundd.jpg);
+        background-image: url(../photo/backgroundd.jpg);
         background-size: cover;
         background-position: center;
         margin-left: auto;
