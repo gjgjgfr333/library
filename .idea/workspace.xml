@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef5df356-6137-4a65-af11-74513aaf6ca8" name="Changes" comment="int: верска 1/3 mobai" />
+    <list default="true" id="ef5df356-6137-4a65-af11-74513aaf6ca8" name="Changes" comment="int: верска 1/3 mobai">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/code/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/code/scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/code/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/favicon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/font/Forum-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/font/Inter-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/font/Inter-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/font/Inter-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/icons/u_facebook-f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/icons/u_instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/icons/u_twitter-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/backgroundd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/book(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/book(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/book(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/book(4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/icon_profile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/image 3 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/image 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/photo/map.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +79,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "library",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,6 +106,7 @@
       <workItem from="1706895243716" duration="11048000" />
       <workItem from="1707049554768" duration="396000" />
       <workItem from="1707051257068" duration="1625000" />
+      <workItem from="1707053163254" duration="1703000" />
     </task>
     <task id="LOCAL-00001" summary="int: верска 1/4 mobail">
       <option name="closed" value="true" />
