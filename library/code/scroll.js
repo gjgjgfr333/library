@@ -19,7 +19,7 @@ function ctepen (baza, stepen){
     let n = stepen % 1;
     if(stepen < 1){
         return console.log('сепень меньше нуля')
-    }else if (n == 0){
+    }else if (n === 0){
         let sum= baza ** stepen
         return sum
     }else{
